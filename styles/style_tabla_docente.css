@@ -1,0 +1,9 @@
+.tabla {
+    width: calc(100vw - 300px); /* Ancho dinámico basado en el espacio restante al sidebar */
+    margin-left: 180px; /* Mueve la tabla hacia la derecha para respetar el sidebar */
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    max-width: 100%; /* La tabla no debe expandirse más allá del contenedor */
+    background-color: rgb(135, 118, 118); /* Color de fondo de la tabla */
+    padding: 1em; /* Añade un padding interno para espacio */
+}

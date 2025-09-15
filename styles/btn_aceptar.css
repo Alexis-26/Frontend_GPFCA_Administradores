@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.style_btn_aceptar {
+    background-color:  #dd971a;
+    border-radius: 7px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 25%;
+    right: 80%;
+    padding: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700; 
+    margin-left: auto;  /* Hace que el botón se alinee a la derecha */
+}
+
+.style_btn_cancelar {
+    font-family: 'Nunito Sans', sans-serif;   
+    color: #6e6868;
+    background-color:  #d7d7d7;
+    border-radius: 7px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 25%;
+    padding: 5px;
+    font-weight: 700; 
+    margin-left: 45%; /* Asegura que no tenga margen a la derecha */
+    margin-top:-14%;
+    position: relative;
+}
+.btn_agregar {/* este va para todo el que diga agregar*/
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #027642;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 220px;
+    height: 54px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.btn_agregar:hover {
+    background-color: rgba(54, 101, 178, 0.9);
+}
+
+
+.style_btn_aceptar:hover {
+    background-color: rgba(54, 101, 178, 0.9);
+}
+
+.style_btn_cancelar:hover {
+    background-color: rgba(54, 101, 178, 0.9);
+    color: #ffffff; 
+}

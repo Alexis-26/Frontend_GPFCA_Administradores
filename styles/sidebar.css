@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/* Estilos para la barra lateral */
+.sidebar {
+    background-color: #000000;
+    width: 230px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.sidebar-logo {
+    width: 80px; /* Ajuste proporcional para el logo */
+    margin: 20px auto; /* Centrado y tamaño relativo */
+}
+
+.sidebar-button {
+    width: 100%;
+    height: 50px; /* Relativo a la altura de la ventana */
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    background-color: #262626;
+}
+
+.sidebar-button:hover {
+    background-color: #00733f;
+}
+
+.sidebar-button-icon {
+    width: 20%; /* Tamaño proporcional basado en el ancho de la ventana */
+    height: 20px;
+    margin-right: 15px; /* Espaciado proporcional */
+}
+
+.sidebar-button-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px; /* Tamaño de texto relativo al ancho de la ventana */
+    white-space: nowrap;
+}

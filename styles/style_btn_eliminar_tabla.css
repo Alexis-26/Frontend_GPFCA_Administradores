@@ -1,0 +1,21 @@
+/* Estilo para el botón en sí */
+.style_btn_eliminar {
+    background-color: #e74c3c; /* Rojo */
+    border: none;
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para la imagen dentro del botón */
+.style_btn_eliminar img {
+    width: auto; /* Ajusta el tamaño de la imagen */
+    height: auto;
+}
+
+/* Cambia el color al pasar el ratón sobre el botón */
+.style_btn_eliminarsesion:hover {
+    background-color: #c0392b; /* Rojo más oscuro al pasar el ratón */
+}

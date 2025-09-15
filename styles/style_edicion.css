@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* Estilos para el botón de cerrar sesión */
+.edicion{
+    background-color:rgb(206,142, 0) ;/* Fondo oscuro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    width: 60px; /* Ancho fijo */
+    height: 40px;
+    color: white; /* Color del texto */
+    font-family: 'Nunito Sans', sans-serif; /* Familia de fuentes */
+    font-size: 16px; /* Tamaño de fuente fijo */
+}
+
+/* Estilos para el ícono dentro del botón de cerrar sesión */
+.edicion_btn {
+    width: 0px; /* Tamaño del ícono */
+    height: 22px;
+    margin-right: 2px; /* Espacio entre el ícono y el texto */
+}
+.edicion:hover {
+    background-color: rgba(54, 101, 178, 0.9);
+}
+
+.edicion_texto {
+    flex-grow: 1; /* Hace que el texto ocupe el espacio restante */
+    text-align: center; /* Centra solo el texto */
+}

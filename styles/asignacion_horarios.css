@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+.deco_seleccion_piso{
+    background-color: #ffffff;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.50);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega una transición suave */
+}
+
+.deco_seleccion_piso:hover {
+    transform: scale(1.05); /* Aplica un leve zoom al pasar el cursor */
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.6); /* Aumenta la sombra para el efecto de profundidad */
+}
+
+
+.box_pisos{
+    background-color: #ffffff;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.50);
+}
+
+.conjunto_mapas{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.formulario_asignacion{
+    background-color: red;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.50);
+}
+
+.formulario_elementos{
+    background-color: green;
+    width: 120px;
+}

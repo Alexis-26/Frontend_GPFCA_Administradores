@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* Contenedor general de cada fila de horas */
+.flex-row {
+    display: flex; /* Hace que los elementos hijos estén en fila */
+    justify-content: space-between; /* Distribuye espacio entre elementos */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-bottom: 20px; /* Espaciado entre filas */
+    margin-left: 5px;
+   
+}
+
+/* Contenedor de cada bloque (checkbox + texto) */
+.flex-column {
+    display: flex; /* Hace que los elementos estén en columna */
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 8px; /* Espaciado entre checkbox y texto */
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    width: 20px; /* Ajusta el tamaño del checkbox */
+    height: 20px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el checkbox */
+}
+
+/* Texto */
+.checkbox-label {
+    font-size: 14px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    margin-left: 4px;
+    font-weight: bold; 
+    margin-top: -30px;
+    padding: 3px;
+}
+

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* Estilos para el botón de cerrar sesión */
+.style_btn_cerrarsesion {
+    background-color: #262626; /* Fondo oscuro */
+    border-radius: 50px; /* Esquinas redondeadas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); /* Efecto de sombra */
+    width: 170px; /* Ancho fijo */
+    padding: 20px 20px; /* Ajuste del padding */
+    display: flex; /* Flexbox para la alineación */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    color: white; /* Color del texto */
+    font-family: 'Nunito Sans', sans-serif; /* Familia de fuentes */
+    font-size: 16px; /* Tamaño de fuente fijo */
+    position: absolute; /* Alineación absoluta dentro del encabezado */
+    right: 20px; /* Espacio del borde derecho */
+    top: 50%; /* Alinea verticalmente */
+    transform: translateY(-50%); /* Centra verticalmente dentro del encabezado */
+    z-index: 1001; /* Asegura que esté por encima del encabezado */
+    min-width: 150px; /* Ancho mínimo para evitar que el botón se haga muy pequeño */
+    white-space: nowrap; /* Previene que el texto se vaya a la siguiente línea */
+    overflow: hidden; /* Evita que se vea mal cuando el espacio es pequeño */
+    text-overflow: ellipsis; /* Agrega "..." si se reduce demasiado */
+}
+
+/* Estilos para el ícono dentro del botón de cerrar sesión */
+.style_btn_cerrar {
+    width: 22px; /* Tamaño del ícono */
+    height: 22px;
+    margin-right: 2px; /* Espacio entre el ícono y el texto */
+}
+.style_btn_cerrarsesion:hover {
+    background-color: #000000;
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 800px) {
+    .style_btn_cerrarsesion {
+        width: 150px; /* Botón más pequeño */
+        font-size: 16px; /* Mantén el tamaño del texto fijo */
+    }
+}
+
+@media (max-width: 600px) {
+    .style_btn_cerrarsesion {
+        width: 120px; /* Botón aún más pequeño */
+        font-size: 16px; /* Tamaño fijo de la fuente, NO cambiará */
+    }
+}

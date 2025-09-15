@@ -1,0 +1,30 @@
+.style_btn_filtro_busqueda {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    width: 300px; /* Ajusta según sea necesario */
+    background-color: white; /* Asegura un fondo uniforme */
+}
+
+/* Input de búsqueda */
+.style_btn_busqueda {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 9px;
+}
+
+/* Ícono de lupa */
+.style_btn_icono {
+    width: 20px;
+    height: 20px;
+    color: #ddd; /* Color del ícono */
+}
+
+/* Botón de búsqueda */
+.style_btn_filtro_busqueda button {
+    background-color: transparent; /* Hace el fondo transparente */
+    padding: 10px; /* Ajusta el espaciado para alinearse con el input */
+}

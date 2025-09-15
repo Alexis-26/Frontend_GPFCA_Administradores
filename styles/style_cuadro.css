@@ -1,0 +1,17 @@
+.elemento {
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.50);
+  border-radius: 10px;
+  width: calc(100vw - 290px); /* Ancho dinámico basado en el espacio disponible menos el navbar */
+  max-width: 1138px;  /* Ancho máximo fijo */
+  height: 681px; /* Altura fija */
+  max-height: calc(75vh - 20px); /* Altura máxima para pantallas más grandes */
+  position: fixed;
+  top: 58%;
+  left: 270px; /* Posición desde la izquierda, considerando el navbar */
+  transform: translateY(-50%);
+  z-index: 1;
+  padding-left: 20px; /* Espacio dentro del cuadro */
+  padding-right: 20px;
+  }
+  

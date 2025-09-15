@@ -1,0 +1,40 @@
+.style_imagen {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.pantalla_medida{
+    width:"100vw";
+    height:"100vh";
+}
+
+.radial_background {
+    position: absolute;
+    top: 5%; /* Valor exacto del 'top' */
+    left: 5%;    /* Valor exacto del 'left' */
+    width: 90vw; /* Valor exacto del 'width' */
+    height: 90vh; /* Valor exacto del 'height' */
+    background: radial-gradient(circle, rgba(135, 183, 142, 0.7), rgba(0, 114, 63, 0.7)); /* Degradado radial con 50% de transparencia */
+    z-index: 0; /* Subfondo detrás de otros elementos */
+    border-radius: 24px; /* Opcional: si deseas bordes redondeados */
+}
+
+.content_overlay {
+    position: absolute;
+    top: 50%; /* Ajustar para centrar el contenido verticalmente */
+    left: 50%; /* Ajustar para centrar el contenido horizontalmente */
+    transform: translate(-50%, -50%); /* Centrar */
+    z-index: 1; /* Asegura que el contenido esté sobre el fondo */
+}
+
+.content_overlaybtn {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 0; 
+    display: flex; /* Para que el formulario y botón se alineen */
+    flex-direction: column; /* Coloca el formulario arriba y el botón debajo */
+    align-items: center;
+}

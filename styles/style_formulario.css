@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+.style_logo {
+    width: 90px;  /* Establece el ancho del logo */
+    height: auto;  /* Mantiene la proporción original de la imagen al ajustar el alto automáticamente */
+    margin-bottom: 15px;  /* Agrega un margen inferior para separar el logo del siguiente elemento */
+}
+
+.style_container {
+    width: 450px;  /* Establece el ancho del contenedor*/
+    height: 475px;  /* Establece la altura del contenedor*/
+    background-color: rgba(0, 114, 63, 0.86);  /* Pone de manera mas especifica los colores de todo el formulario con opacidad*/
+    border-radius: 15px;  /* Establece esquinas redondeadas*/
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  /* Agrega una sombra suave al contenedor para darle profundidad */
+    margin-top: 5px; /* añade espacio en la parte superior del  contenedor*/
+}
+
+.style_contenido_container {
+    width: 100%;  /* El contenedor de contenido */
+    text-align: center;  /* Centra el texto dentro del contenedor */
+
+}
+
+.style_letra_inicio {
+    font-family: 'Nunito Sans', sans-serif;  /* Establece la fuente del texto a 'Nunito Sans' */
+    color: #FFFFFF;  /* Establece el color del texto a blanco */
+    font-weight: bold;  /* Hace que el texto sea negrita */
+    text-align: center;  /* Centra el texto horizontalmente */
+    margin-bottom: 20px;  /* Agrega un margen inferior para separar el texto de otros elementos */
+}
+
+.style_letra_empleado {
+    font-family: 'Nunito Sans', sans-serif; 
+    color: #FFFFFF; 
+    font-weight: bold; 
+    width: 60%;  /* Establece el ancho del texto */
+    margin-bottom: 8px;  /* Margen inferior para separar el texto del siguiente elemento */
+    margin-left: -3%; 
+}
+
+.style_letra_contraseña {
+    font-family: 'Nunito Sans', sans-serif; 
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 60%;  /* Establece el ancho del texto */
+    margin-left: -12%;  /* Aplica un margen izquierdo negativo para ajustar la posición del texto */
+}
+
+.style_input_empleado {
+    width: 85%; 
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000; 
+    background-color: #FFFFFF; 
+    margin-bottom: 10px;  /* Agrega un margen inferior para separar el input del siguiente elemento */
+}
+
+.style_input_contraseña {
+    width: 85%; 
+    font-family: 'Nunito Sans', sans-serif; 
+    color: #000000;  /* Color negro para el texto en el input */
+    background-color: #FFFFFF;
+    margin-bottom: 50px;  /* Margen inferior para separar el input de contraseña del siguiente elemento */
+}
+
+
