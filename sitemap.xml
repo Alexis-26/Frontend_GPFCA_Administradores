@@ -24,22 +24,4 @@
   <url>
     <loc>http://localhost:3000/auditoria</loc>
   </url>
-  <url>
-    <loc>http://localhost:3000/menu-principal</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/asignacion-horarios</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/gestion-docentes</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/gestion-cursos</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/consulta-horarios</loc>
-  </url>
-  <url>
-    <loc>http://localhost:3000/gestion-usuarios</loc>
-  </url>
 </urlset>
